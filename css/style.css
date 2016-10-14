@@ -1,0 +1,148 @@
+body {
+	background-color:#FFF8E7;
+	font-family:"lucida bright";
+	padding:none;
+	border:none;
+	text-align:center;
+}
+
+.navbar{
+	margin-left:11%;
+	margin-right:11%;
+	width:78%;
+	height:60px;
+	
+}
+
+.navDiv{
+float:right;
+	width:14%;
+	height:100%;
+	text-align:center;
+	margin-right:0.28%;
+	overflow:hidden;
+}.navDiv:hover{
+	box-shadow: 0px 3px 10px 0px #000000;
+}
+.navButton{
+	
+	border:none;
+	border-bottom:1.5px solid #4d0977;
+	background-color:transparent;
+	padding-top:30px;
+	font-size:15px;
+	color:#000000;
+	/*font-weight:bold;*/              /*#4d0977*/
+	height:100%;
+	width:100%;
+	transition: .2s ease-in-out;
+	vertical-align:bottom;
+	
+}.navButton:hover{
+	font-weight:bold;
+	font-size:16.2px;
+	border:none;
+	color:white;
+	background-color:#000000;
+}
+
+
+
+
+#HomeImgDiv{
+	position:absolute;
+		width:74%;
+		/*height:37%;*/
+	top:140px;
+	margin:0 auto;
+	left:12%;
+	display: inline-block;
+    overflow: hidden;
+}
+
+.HomeSlideshow{
+	width:100%;
+	
+
+}
+.HomeSlideshowDiv{
+	text-align:center;
+	position:relative;
+	top:60px;
+	width:100%;
+	
+	
+}
+
+.TableMain{
+	border:none;
+	margin:none;
+	padding:none;
+	width:100%;
+	position:relative;
+	top:60px;
+	
+}
+.TDMain{
+	border:none;
+	margin:none;
+	padding:none;
+	overflow:hide;
+	
+	
+}
+.TRMain{
+	border:none;
+	margin:none;
+	padding:none;
+	
+}
+.TableImg{
+	transition:1s ease-in-out;
+	width:100%;
+	
+	
+}.TableImg:hover{
+	transform:scale(1.2);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#HomeImg{
+	width:100%;
+	transition:1.2s ease-in-out;
+}
+#HomeImg:Hover{
+	
+	transform:scale(1.5);
+}
+
+
+#HomeColourDivMain{
+	
+	
+	position:absolute;
+		width:74%;
+		
+	top:140px;
+	z-index:-1;
+	left:0%;
+	display: inline-block;
+    overflow: hidden;
+	
+	
+}
+#HomeColourImg{
+	width:100%;
+	transition:1.2s ease-in-out;
+}*/

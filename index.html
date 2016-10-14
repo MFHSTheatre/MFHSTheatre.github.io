@@ -1,0 +1,73 @@
+<head> 
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+ <title>Marble Falls Theatre Department</title> 
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+ </head>
+ 
+ <body>
+ 
+ <div class ="navbar">
+ 
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:left;"> </button></a></div>
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:left;"> </button></a></div>
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:left;"> </button></a></div>
+<div class = "navDiv" style= "overflow:visible; box-shadow:none; "><a href="http://www.marblefallsisd.org/" ><img src = "images/MustangIcon.jpg" style = "width:100%;"></a></div>
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:right;">Officers/Chairs</button></a></div>
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:right;">History</button></a></div>
+<div class = "navDiv"><a href="http://www.marblefallsisd.org/" ><button class = "navButton" style = "text-align:right;"></button></a></div>
+
+
+
+
+
+<!-- The slideshow-->
+</div>
+<div class = "HomeSlideshowDiv">
+<img src = "images/slideshow/2.jpg" style = "" class = "HomeSlideshow" >
+<img src = "images/slideshow/3.jpg" class = "HomeSlideshow">   <!--make sure these are the same size-->
+<img src = "images/slideshow/4.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow/5.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow/6.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow/7.jpg" class = "HomeSlideshow">
+</div>
+
+<script>
+var myIndex = 0;
+Slideshow();
+
+function Slideshow() {
+    var i;
+    var x = document.getElementsByClassName("HomeSlideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(Slideshow, 4000); // Change image every 2 seconds
+}
+</script>
+<!--the zooming image --->
+<!--<div id = "HomeImgDiv"><img src = "images/TestHomeImg.png" id = "HomeImg"></div>
+<div id = "HomeColourDivMain" ><img src = "images/HomeBehindImgMain.png" id = "HomeColourImg"></div>-->
+
+
+<table class = "TableMain"cellspacing=0>
+<tr class = "TRMain">
+<td class = "TDMain"><div class = "TDMain"><img src = "images/Planet.jpg" class = "TableImg"></div></td>
+<td class = "TDMain"><img src = "images/Planet1.jpg" class = "TableImg"></td>
+</tr>
+
+<tr class = "TRMain">
+<td class = "TDMain"><img src = "images/Planet1.jpg" class = "TableImg"></td>
+<td class = "TDMain"><img src = "images/Planet.jpg" class = "TableImg"></td>
+</tr>
+
+
+</table>
+
+
+ 
+ 
+ </body>
