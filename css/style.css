@@ -39,8 +39,7 @@ float:right;
 	vertical-align:bottom;
 	
 }.navButton:hover{
-	font-weight:bold;
-	font-size:16.2px;
+	
 	border:none;
 	color:white;
 	background-color:#000000;
@@ -75,27 +74,21 @@ float:right;
 }
 
 .TableMain{
-	border:none;
-	margin:none;
-	padding:none;
+	
 	width:100%;
 	position:relative;
 	top:60px;
 	
 }
 .TDMain{
-	border:none;
-	margin:none;
-	padding:none;
-	overflow:hide;
 	
+	overflow:hidden;
+
 	
 }
 .TRMain{
-	border:none;
-	margin:none;
-	padding:none;
 	
+	border-collapse:collapse;
 }
 .TableImg{
 	transition:1s ease-in-out;
