@@ -24,7 +24,8 @@
 <!-- The slideshow-->
 
 <div class = "HomeSlideshowDiv">
-<img src = "images/slideshow/2.jpg" style = "" class = "HomeSlideshow" >
+
+<img src = "images/slideshow/2.jpg" class = "HomeSlideshow" >
 <img src = "images/slideshow/3.jpg" class = "HomeSlideshow">   <!--make sure these are the same size-->
 <img src = "images/slideshow/4.jpg" class = "HomeSlideshow">
 <img src = "images/slideshow/5.jpg" class = "HomeSlideshow">
@@ -36,24 +37,29 @@
 var myIndex = 0;
 Slideshow();
 
+
 function Slideshow() {
     var i;
     var x = document.getElementsByClassName("HomeSlideshow");
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";
     }
+	
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
+
+	
     x[myIndex-1].style.display = "block";
-    setTimeout(Slideshow, 4000); // Change image every 2 seconds
-}
+    setTimeout(Slideshow, 4000); 
+	}
+	
 </script>
 <!--the zooming image --->
 <!--<div id = "HomeImgDiv"><img src = "images/TestHomeImg.png" id = "HomeImg"></div>
 <div id = "HomeColourDivMain" ><img src = "images/HomeBehindImgMain.png" id = "HomeColourImg"></div>-->
 
 
-<table class = "TableMain" cellspacing=0; cellpadding = 0;>
+<!-- <table class = "TableMain" cellspacing=0; cellpadding = 0;>
 <tr class = "TRMain">
 <td class = "TDMain"><img src = "images/Planet.jpg" class = "TableImg"></td>
 <td class = "TDMain"><img src = "images/Planet.jpg" class = "TableImg"></td>
@@ -65,9 +71,9 @@ function Slideshow() {
 </tr>
 
 
-</table>
+</table>--->
 
 
- 
+
  </div>
  </body>
