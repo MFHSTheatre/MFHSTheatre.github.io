@@ -20,41 +20,16 @@
 </div>
 
 <div class = "backgroundPage">
+<div class = "titleBar" >Officers and Chairs</div>
 
-<!-- The slideshow-->
-
-<div class = "HomeSlideshowDiv">
-
-<img src = "images/slideshow/2.jpg" class = "HomeSlideshow" >
-<img src = "images/slideshow/3.jpg" class = "HomeSlideshow">   <!--make sure these are the same size-->
-<img src = "images/slideshow/4.jpg" class = "HomeSlideshow">
-<img src = "images/slideshow/5.jpg" class = "HomeSlideshow">
-<img src = "images/slideshow/6.jpg" class = "HomeSlideshow">
-<img src = "images/slideshow/7.jpg" class = "HomeSlideshow">
-</div>
-
-<script>
-var myIndex = 0;
-Slideshow();
+<div class = "imageAcrossAScreen" style = "margin-bottom:3%;"><img src = "images/0207171518i.jpg" style = "width:100%; position:inherit;"></img></div>
+<div style = "width:49%; height:49.9999%; display:inline-block; background-color: #ffffff; "></div>
+<div style = "width:49%; height:49.9999%; display:inline-block; background-color: #ffffff; "></div>
+<div style = "width:49%; height:49.9999%; display:inline-block; background-color: #ffffff; "></div>
 
 
-function Slideshow() {
-    var i;
-    var x = document.getElementsByClassName("HomeSlideshow");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-	
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
 
-	
-    x[myIndex-1].style.display = "block";
-    setTimeout(Slideshow, 6000); 
-	
-	}
-	
-</script>
+
 
 
  </div>

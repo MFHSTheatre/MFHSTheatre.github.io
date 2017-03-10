@@ -10,8 +10,9 @@ body {
 	padding:none;
 	border:none;
 	text-align:center;
-	background: url(../images/TestHomeImg.png) no-repeat center fixed;
+	background: url(../images/0331160733b_HDR.jpg) no-repeat center fixed;
 	background-size:cover;
+	
 }
 
 .navbar{
@@ -56,13 +57,23 @@ float:right;
 
 
 .backgroundPage{
-	background-color:#ffffff;
+	background-color:rgba(255,255,255,0.2);
+	
 	width: 85%;
 	margin:0px auto;
-	margin-top:30px;
-	box-shadow:0px 30px 20px 0px #000000;
+	margin-top:5%;
+	padding: 2%;
+	box-shadow:0px 7px 100px 0px #000000;
 	
 	
+}
+
+#tableForSlideOverlay{
+	width: 85%;
+	margin:0px auto;
+	margin-top:5%;
+	padding: 2%;
+	position: absolute;
 }
 
 .HomeSlideshow{
@@ -73,76 +84,22 @@ float:right;
 .HomeSlideshowDiv{
 	text-align:center;
 	position:relative;
-	top:30px;
+
 	width:100%;
-	margin-bottom:30px;
-	
+}
+
+.titleBar{
+	text-align:left;
+	font-size: 25px;
+	font-weight:bold;
+	padding: 2%;
+	margin: 0px auto;
 	
 }
 
-.TableMain{
-	
+.imageAcrossAScreen{
 	width:100%;
-	position:relative;
-	
-	
-}
-.TDMain{
-	
-	overflow:hidden;
-
+	margin:0%;
+	padding:0%;
 	
 }
-.TRMain{
-	
-	border-collapse:collapse;
-}
-.TableImg{
-	transition:1s ease-in-out;
-	width:100%;
-	
-	
-}.TableImg:hover{
-	transform:scale(1.2);
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*#HomeImg{
-	width:100%;
-	transition:1.2s ease-in-out;
-}
-#HomeImg:Hover{
-	
-	transform:scale(1.5);
-}
-
-
-#HomeColourDivMain{
-	
-	
-	position:absolute;
-		width:74%;
-		
-	top:140px;
-	z-index:-1;
-	left:0%;
-	display: inline-block;
-    overflow: hidden;
-	
-	
-}
-#HomeColourImg{
-	width:100%;
-	transition:1.2s ease-in-out;
-}*/
