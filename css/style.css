@@ -68,13 +68,7 @@ float:right;
 	
 }
 
-#tableForSlideOverlay{
-	width: 85%;
-	margin:0px auto;
-	margin-top:5%;
-	padding: 2%;
-	position: absolute;
-}
+
 
 .HomeSlideshow{
 	width:93%;
@@ -103,3 +97,95 @@ float:right;
 	padding:0%;
 	
 }
+
+.hoverToVisible{
+	position:absolute; 
+	display: block; 
+	opacity:0;
+	transition:1s ease-in-out;
+	z-index:2;
+}.hoverToVisible:hover{
+	opacity:1;
+}
+
+/*officer page*/
+.lupitaInfo{
+	color:white;
+position:absolute; 
+	display: block; 
+	opacity:0;
+	transition:1s ease-in-out;
+	z-index:-1;
+	
+}#toLupita{
+	
+	position:absolute; 
+	display: block; 
+	opacity:0;
+	
+}#toLupita:hover ~ .lupitaInfo{
+	opacity:1;
+	z-index:2;
+}
+
+.taylorInfo{
+	color:white;
+position:absolute; 
+	display: block; 
+	opacity:0;
+	transition:1s ease-in-out;
+	z-index:-1;
+}#toTaylor{
+	
+	position:absolute; 
+	display: block; 
+	opacity:0;
+	
+}#toTaylor:hover ~ .taylorInfo{
+	opacity:1;
+	z-index:2;
+}
+
+.christineInfo{
+
+	color:white;
+position:absolute; 
+	display: block; 
+	opacity:0;
+	transition:1s ease-in-out;
+	z-index:-1;
+}#toChristine{
+	
+	position:absolute; 
+	display: block; 
+	opacity:0;
+	
+}#toChristine:hover ~ .christineInfo{
+	opacity:1;
+	z-index:2;
+	
+}
+
+.ryanInfo{
+	color:white;
+position:absolute; 
+	display: block; 
+	opacity:0;
+	transition:1s ease-in-out;
+	z-index:-1;
+	
+}#toRyan{
+	
+	position:absolute; 
+	display: block; 
+	opacity:0;
+	
+}#toRyan:hover ~ .ryanInfo{
+	opacity:1;
+	z-index:2;
+}
+
+
+
+
+
