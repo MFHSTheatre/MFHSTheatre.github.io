@@ -108,6 +108,8 @@ float:right;
 	opacity:1;
 }
 
+
+
 /*officer page*/
 .lupitaInfo{
 	color:white;
@@ -116,7 +118,7 @@ position:absolute;
 	opacity:0;
 	transition:1s ease-in-out;
 	z-index:-1;
-	
+	box-shadow: 0px 30px 80px 2px #222222;
 }#toLupita{
 	
 	position:absolute; 
@@ -135,6 +137,7 @@ position:absolute;
 	opacity:0;
 	transition:1s ease-in-out;
 	z-index:-1;
+	box-shadow: 0px 30px 80px 2px #222222;
 }#toTaylor{
 	
 	position:absolute; 
@@ -147,7 +150,7 @@ position:absolute;
 }
 
 .christineInfo{
-
+box-shadow: 0px 30px 80px 2px #222222;
 	color:white;
 position:absolute; 
 	display: block; 
@@ -173,7 +176,7 @@ position:absolute;
 	opacity:0;
 	transition:1s ease-in-out;
 	z-index:-1;
-	
+	box-shadow: 0px 30px 80px 2px #222222;
 }#toRyan{
 	
 	position:absolute; 
@@ -185,7 +188,39 @@ position:absolute;
 	z-index:2;
 }
 
+/*Director Page*/
 
+#clark{
+	margin-bottom:3%;
+	width:70%;
+	margin-right:20%;
+	align:left;
+	padding: 1.5%;
+	background-color: #4d0977;
+	display:inline-block;
+	border: 5px solid #ad8c49;
+color: #ad8c49;	
+}
+#dwade{
+	
+	width:70%;
+	margin-left:20%;
+	padding: 1.5%;
+	background-color: #ad8c49;
+	display:inline-block;
+	border: 5px solid #4d0977;
+color: #4d0977;
+}
 
+/*current production*/
+.productionSlideShow{
+	width:93%;
+	margin:0px auto;
 
+}
+.productionSlideShowDiv{
+	text-align:center;
+	position:relative;
 
+	width:100%;
+}
