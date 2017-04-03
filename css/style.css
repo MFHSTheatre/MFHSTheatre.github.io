@@ -71,15 +71,21 @@ float:right;
 
 
 .HomeSlideshow{
-	width:93%;
-	margin:0px auto;
+	
+vertical-align:middle;
+width: 100%;
 
 }
 .HomeSlideshowDiv{
 	text-align:center;
 	position:relative;
-
-	width:100%;
+height:80%;
+border:2px solid #ad8c49;
+display:inline-block;
+background-color:#ad8c49;
+	width:80%;
+	overflow:hidden;
+	vertical-align:middle;
 }
 
 .titleBar{
