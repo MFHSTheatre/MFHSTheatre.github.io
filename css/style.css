@@ -33,6 +33,19 @@ float:right;
 }.navDiv:hover{
 	box-shadow: 0px 3px 10px 0px #000000;
 }
+#rabbit{
+	
+	border:none;
+	border-bottom:1.5px solid #4d0977;
+	background-color:transparent;
+	
+	
+	color:#000000;
+	/*font-weight:bold;*/              /*#4d0977*/
+	display:inline-block;
+	transition: .2s ease-in-out;
+	vertical-align:middle;
+}
 .navButton{
 	
 	border:none;
@@ -74,12 +87,13 @@ float:right;
 	
 vertical-align:middle;
 width: 100%;
+vertical-align:middle;
 
 }
 .HomeSlideshowDiv{
 	text-align:center;
 	position:relative;
-height:80%;
+
 border:2px solid #ad8c49;
 display:inline-block;
 background-color:#ad8c49;

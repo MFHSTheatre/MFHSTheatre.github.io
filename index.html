@@ -1,5 +1,8 @@
 <head> 
- <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" /> \
+ <meta name="description" content="The Marble Falls High School Theatre department webpage. 
+ Marble Falls, TX, home of troupe 3701. We have recently made it to region one act play and 
+ couldnt be more proud of our department" />
  <title>Marble Falls Theatre Department</title> 
 
  <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,25 +18,46 @@
 <div class = "navDiv"><a href="DirectorsPage.html" ><button class = "navButton" style = "text-align:left;">Directors</button></a></div>
 <div class = "navDiv" style= "overflow:visible; box-shadow:none; "><a href="http://www.marblefallsisd.org/" ><img src = "images/MustangIcon.png" style = "width:100%;"></a></div>
 <div class = "navDiv"><a href="OfficerPage.html" ><button class = "navButton" style = "text-align:right;">Officers/Chairs</button></a></div>
-<div class = "navDiv"><a href="HistoryPage.html" ><button class = "navButton" style = "text-align:right;">History</button></a></div>
+<div class = "navDiv"><a href="HistoryPage.html" ><button  id = "rabbit" style = "text-align:center;"><img style = "height:100%;" src = "images/rabbit1.png"/></button></a></div>
 <div class = "navDiv"><a href="index.html" ><button class = "navButton" style = "text-align:right;">Home Page</button></a></div>
 </div>
 
 <div class = "backgroundPage">
 
-<div style = "font-size: 50; font-family:times; color:#4d0977; font-weight:bold;">MFHS Theatre</div><!-- The slideshow-->
+<div style = "font-size: 50; font-family:times; color:#4d0977; font-weight:bold;">Look at pictures then follow the white rabbit</div><!-- The slideshow-->
 
-<div class = "HomeSlideshowDiv">
+<div class = "HomeSlideshowDiv" >
 
-<img src = "images/slideshow/1.jpg" class = "HomeSlideshow" >
-<img src = "images/slideshow/2.jpg" class = "HomeSlideshow">   <!--make sure these are the same size-->
-<img src = "images/slideshow/3.jpg" class = "HomeSlideshow">
-<img src = "images/slideshow/4.jpg" class = "HomeSlideshow">
-<img src = "images/slideshow/5.jpg" class = "HomeSlideshow">
+<img style = "width:;" src = "images/slideshow3/1.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow3/2.jpg" class = "HomeSlideshow">   <!--make sure these are the same size-->
+<img src = "images/slideshow3/3.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow3/4.jpg" class = "HomeSlideshow">
+<img src = "images/slideshow3/5.jpg" class = "HomeSlideshow">
 
 </div>
-
 <script>
+var x = document.getElementsByClassName("HomeSlideshow");
+var k = x[0].height;
+setImageHeight();
+ 
+ function setImageHeight(){
+    for (i = 0; i < x.length; i++) {
+      if(x[i].height < k){
+	  k = x[i].height;
+	  }
+    }
+	for (i = 0; i < x.length; i++) {
+      
+	 x[i].height = k;;
+	  
+    }
+	document.getElementsByClassName("HomeSlideshowDiv").height = k;
+}
+
+</script>
+<script>
+
+
 var myIndex = 0;
 Slideshow();
 
@@ -50,7 +74,7 @@ function Slideshow() {
 
 	
     x[myIndex-1].style.display = "block";
-    setTimeout(Slideshow, 6000); 
+    setTimeout(Slideshow, 5000); 
 	
 	}
 	
